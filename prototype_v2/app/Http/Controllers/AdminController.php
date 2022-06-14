@@ -8,14 +8,13 @@ use App\Http\Requests\UpdateAdminRequest;
 
 class AdminController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    public function __construct(){
+        $this->middleware('guest:admin')->except('')
+    }
     public function index()
     {
-        //
+        return view('admin.index');
+
     }
 
     /**
@@ -23,31 +22,32 @@ class AdminController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function showAdminLoginForm()
     {
-        //
+        return view('admin.auth.login');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \App\Http\Requests\StoreAdminRequest  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(StoreAdminRequest $request)
+   
+    public function adminLogin()
     {
-        //
+        $this->validate($request,[
+            'email'=>'required|email',
+            'password'=>'required|min:4'
+        ]);
+        if(auth()->guard('admin')->attempt([
+            'email'=> $request->email,
+            'password'=>$request->password
+        ],$request->get('remember'))){
+            return redirect('/admine');
+        }else{
+            return redirect()->route('admin.login');
+        }
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Admin  $admin
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Admin $admin)
+
+    public function adminLogout()
     {
-        //
+        auth()->guard('admin')->logout();
     }
 
     /**
