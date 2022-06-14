@@ -21,7 +21,7 @@ Route::resource('categorie', App\Http\Controllers\CategorieController::class);
 Route::get('/categories', [App\Http\Controllers\CategorieController::class, 'index'])->name('Categories');
 //prodact route
 Route::get('/prodact', [App\Http\Controllers\MaterailController::class, 'index'])->name('home');
-Route::get('/prodact/categorie/{categorie}', [App\Http\Controllers\MaterailController::class, 'getMaterailByCategory'])->name('prodact.categorie');
+Route::get('/prodact/{categorie}/categorie', [App\Http\Controllers\MaterailController::class, 'getMaterailByCategory'])->name('prodact.categorie');
 //cart routes 
 Route::get('/cart', [App\Http\Controllers\CartController::class, 'index'])->name('cart.index');
 Route::post('/add/cart/{prodact}', [App\Http\Controllers\CartController::class, 'addProdactToCart'])->name('add.cart');

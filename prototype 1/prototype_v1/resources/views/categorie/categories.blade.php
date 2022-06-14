@@ -1,5 +1,9 @@
 @extends('layouts.app')
-
+@section('link')
+<script src="{{ asset('js/boos.js') }}" defer></script>
+<script src="{{ asset('js/app.js') }}" defer></script>
+<link href="{{ asset('css1/app.css') }}" rel="stylesheet">
+@endsection
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -30,4 +34,5 @@
         </div>
     </div>
 </div>
+
 @endsection

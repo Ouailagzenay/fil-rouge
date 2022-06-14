@@ -1,0 +1,64 @@
+@media (min-width: 1263px) and (max-width: 1439px) {
+
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits{
+		width: 5.2em;
+		height: 5.2em;
+		line-height: 5.2em;
+	}
+
+	.top_panel_middle .sidebar_cart::after, .menu_user_nav > li > ul::after{
+		left: 7.3em;
+	}
+
+}
+
+@media (min-width: 1136px) and (max-width: 1262px) {
+
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits{
+		width: 5.2em;
+		height: 5.2em;
+		line-height: 5.2em;
+	}
+
+		.top_panel_middle .sidebar_cart::after, .menu_user_nav > li > ul::after{
+		left: 7.3em;
+	}
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1135px) {
+
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits{
+		width: 4.6em;
+		height: 4.6em;
+		line-height: 4.6em;
+	}
+
+}
+
+@media (min-width: 960px) and (max-width: 1023px) {
+
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits{
+		width: 4.2em;
+		height: 4.2em;
+		line-height: 4.2em;
+	}
+
+	.top_panel_middle .sidebar_cart::after, .menu_user_nav > li > ul::after{
+			right: 6.9em;
+			left: auto;
+		}
+
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+
+	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits{
+		width: 3em;
+		height: 3em;
+		line-height: 3em;
+	}
+
+}
+

@@ -6,6 +6,7 @@ use App\Models\Materail;
 use App\Models\Categorie;
 use App\Http\Requests\StoreMaterailRequest;
 use App\Http\Requests\UpdateMaterailRequest;
+use Illuminate\Http\Request;
 
 class MaterailController extends Controller
 {
@@ -19,12 +20,10 @@ class MaterailController extends Controller
         //
     }
     public function getMaterailByCategory(Categorie $categorie)
-    {
-        $Tables = $categorie->Materail()->paginate(10);
-        return view('tables.index')->with([
-            'product'=>$Tables,
-            'categorie'=>Categorie::where('slug', 'slug')->first()
-            
+    { 
+        $materail = $categorie->materail()->paginate(10);
+        return  view('tables.index')->with([
+            'product'=>$materail
             ]);
     }
     /**

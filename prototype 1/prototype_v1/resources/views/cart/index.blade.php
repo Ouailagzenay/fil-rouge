@@ -19,10 +19,10 @@
                     </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="{{$item->options->image}}" class="d-block w-100" alt="...">
+                  <img src="" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="{{$item->options->image2}}" class="d-block w-100" alt="...">
+                  <img src="" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                   <img src="" class="d-block w-100" alt="...">
@@ -61,7 +61,7 @@
                       
                       <div class="row">
                         <div class="col-md-3">
-                          {{$item->options->nom_material}}
+                          {{$item->name}}
                         </div>
                       <div class="col-md-3">
                       <input type="number" name="qty" id="qty"
