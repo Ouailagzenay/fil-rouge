@@ -27,3 +27,8 @@ Route::get('/cart', [App\Http\Controllers\CartController::class, 'index'])->name
 Route::post('/add/cart/{prodact}', [App\Http\Controllers\CartController::class, 'addProdactToCart'])->name('add.cart');
 Route::put('/update/{prodact}/cart', [App\Http\Controllers\CartController::class, 'updateProdactOnCart'])->name('update.cart');
 Route::delete('/add/{prodact}/cart', [App\Http\Controllers\CartController::class, 'removeProdactFormCart'])->name('remove.cart');
+//admin routes 
+Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin.index');
+Route::get('/admin/login', [App\Http\Controllers\AdminController::class, 'ShowAdminLoginForm'])->name('admin.login');
+Route::post('/admin/login', [App\Http\Controllers\AdminController::class, 'adminLogin'])->name('admin.login');
+Route::get('/admin/logout', [App\Http\Controllers\AdminController::class, 'adminLogout'])->name('admin.logout');
