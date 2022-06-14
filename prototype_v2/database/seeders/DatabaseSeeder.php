@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
           
             CategorieSeeder::class,
             MaterailSeeder::class,
+            AdminSeeder::class,
            
         ]);
     }
