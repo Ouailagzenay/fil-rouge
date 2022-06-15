@@ -2,8 +2,8 @@
 
 
 @section('content')
-  <!-- Preloader Start -->
-  <div id="preloader">
+<!-- Preloader Start -->
+<div id="preloader">
     <div class="preloader--spinner"></div>
 </div>
 <!-- Preloader End -->
@@ -79,31 +79,9 @@
                     <img src="{{asset('img/home/hedare.png')}}" alt="">
                 </div>
 
-                <div class="meta pb--10">
-                    <ul class="nav fw--500">
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-clock-o text-primary"></i>
-                                <span>12 July 2017</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-map text-primary"></i>
-                                <span>Mountain</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
                 <div class="content--inner">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati architecto ad, quod harum eos velit quia voluptates reiciendis aut quas aliquid maxime possimus, error voluptatibus unde, dolorum qui tempora. Cum.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero soluta fugiat cupiditate illo aut accusantium voluptate dignissimos nam sed numquam, aperiam laudantium facere iusto cum natus veritatis, modi autem eligendi. Ducimus, temporibus, corporis. Nam laboriosam expedita saepe a fugiat molestias ducimus laborum vero at. Nulla maxime, dolorum doloremque mollitia officia nemo provident sapiente voluptate, corporis eaque, eos <a href="#">quos veritatis voluptates</a>.</p>
-
                     <table class="specs">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
                         <tbody>
                             <tr>
                                 <td><i class="fa fa-camera-retro"></i>Camera</td>
@@ -128,192 +106,18 @@
                         </tbody>
                     </table>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores ex velit, similique molestiae debitis enim? Nemo necessitatibus sapiente sit, modi dolorum vel harum ut, libero, beatae praesentium nam perspiciatis!</p>
-                </div>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit</h5>
 
-                <div class="social pt--50">
-                    <ul class="nav">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati architecto ad, quod harum eos velit quia voluptates reiciendis aut quas aliquid maxime possimus, error voluptatibus unde, dolorum qui tempora. Cum.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero soluta fugiat cupiditate illo aut accusantium voluptate dignissimos nam sed numquam, aperiam laudantium facere iusto cum natus veritatis, modi autem eligendi. Ducimus, temporibus, corporis. Nam laboriosam expedita saepe a fugiat molestias ducimus laborum vero at. Nulla maxime, dolorum doloremque mollitia officia nemo provident sapiente voluptate, corporis eaque, eos <a href="#">quos veritatis voluptates</a>.</p>
+
                 </div>
             </div>
             <!-- Portfolio Details End -->
         </div>
     </section>
     <!-- Portfolio Section End -->
-
-    <!-- Recent Shots Section Start -->
-    <section class="section pt--80 pb--80" data-bg-img="img/recent-shots-img/bg.jpg" data-overlay="0.95 white">
-        <div class="container">
-            <!-- Section Title Start -->
-            <div class="section--title pb--50 text-center">
-                <h2 class="h1 ff--primary text-primary">Recent Shorts</h2>
-            </div>
-            <!-- Section Title End -->
-        </div>
-
-        <!-- Recent Shots Start -->
-        <div class="recent--shots owl-carousel" data-owl-center="true" data-owl-responsive='{"0": {"autoWidth": true}}' data-trigger="gallery_popup">
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/small-01.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/small-01.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/small-02.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/small-02.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-            
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/small-03.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/small-03.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-            
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/small-04.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/small-04.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-            
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/small-05.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/small-05.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-            
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/small-06.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/small-06.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-            
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/small-07.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/small-07.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-            
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/small-08.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/small-08.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-            
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/small-09.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/small-09.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-            
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/small-10.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/small-10.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-        </div>
-        <!-- Recent Shots End -->
-
-        <!-- Recent Shots Start -->
-        <div class="recent--shots owl-carousel" data-owl-center="true" data-owl-responsive='{"0": {"autoWidth": true}}' data-trigger="gallery_popup">
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/large-01.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/large-01.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/large-02.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/large-02.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/large-03.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/large-03.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/large-04.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/large-04.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-
-            <!-- Recent Shot Start -->
-            <div class="recent--shot">
-                <a href="img/recent-shots-img/large-05.jpg" data-overlay="0.75" class="zoom">
-                    <img src="img/recent-shots-img/large-05.jpg" alt="">
-
-                    <i class="fa fa-search-plus"></i>
-                </a>
-            </div>
-            <!-- Recent Shot End -->
-        </div>
-        <!-- Recent Shots End -->
-    </section>
-    <!-- Recent Shots Section End -->
 
     <!-- Footer Section Start -->
     <footer class="footer--section pt--50 pb--50 text-center bg-dark">
@@ -339,15 +143,15 @@
     <!-- Footer Section End -->
 </div>
 <!-- Wrapper End -->
-  <!-- Back To Top Button Start -->
-  <div id="backToTop">
+<!-- Back To Top Button Start -->
+<div id="backToTop">
     <a href="#" class="btn btn-default"><i class="fa fa-angle-double-up"></i></a>
 </div>
 <!-- Back To Top Button End -->
 
-  <!-- ==== Plugins Bundle ==== -->
-  <script src="{{asset('js/plugins.min.js')}}"></script>
+<!-- ==== Plugins Bundle ==== -->
+<script src="{{asset('js/plugins.min.js')}}"></script>
 
-  <!-- ==== Main Script ==== -->
-  <script src="{{asset('js/main.js')}}"></script>
+<!-- ==== Main Script ==== -->
+<script src="{{asset('js/main.js')}}"></script>
 @endsection
