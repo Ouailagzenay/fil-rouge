@@ -18,13 +18,8 @@
     
 </head>
 <body>
-    @yield('nave')
-    <div>
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
 
-    @yield('script')
+@yield('content')
+        
 </body>
 </html>
