@@ -8,7 +8,25 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'traiteur') }}</title>
+ <!-- ==== Favicon ==== -->
+ <link rel="icon" href="{{asset('favicon.png')}}" type="image/png">
 
+ <!-- ==== Google Font ==== -->
+ <link rel="stylesheet" href="{{asset('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CLobster')}}">
+ 
+ <!-- ==== Plugins Bundle ==== -->
+ <link rel="stylesheet" href="{{asset('css/plugins.min.css')}}">
+ <!-- ==== Main Stylesheet ==== -->
+ <link rel="stylesheet" href="{{asset('css/style.css')}}">
+ 
+ <!-- ==== Responsive Stylesheet ==== -->
+ <link rel="stylesheet" href="{{asset('css/responsive-style.css')}}">
+ 
+ <!-- ==== Color Scheme Stylesheet ==== -->
+ <link rel="stylesheet" href="{{asset('css/colors/color-1.css')}}" id="changeColorScheme">
+ 
+ <!-- ==== Custom Stylesheet ==== -->
+ <link rel="stylesheet" href="{{asset('css/custom.css')}}">
     @yield('link')
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -18,6 +36,7 @@
     
 </head>
 <body>
+    
 
 @yield('content')
         
