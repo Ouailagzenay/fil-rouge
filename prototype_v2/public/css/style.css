@@ -1448,9 +1448,7 @@ html.touchevents .service--items .owl-nav > div {
             transition: box-shadow .25s ease-in-out;
 }
 
-.team--member:hover {
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-}
+
 
 .team--member .img {
     border-style: solid;
@@ -1460,10 +1458,7 @@ html.touchevents .service--items .owl-nav > div {
             transition: border-color .25s;
 }
 
-.team--member:hover .img {
-    border-left-color: transparent;
-    border-right-color: transparent;
-}
+
 
 .team--member .info {
     padding: 23px 0 30px;
@@ -1474,10 +1469,6 @@ html.touchevents .service--items .owl-nav > div {
             transition: color .25s, background-color .25s ease-in-out;
 }
 
-.team--member:hover .info {
-    color: #fff;
-    background-color: #deab3a;
-}
 
 .team--member .name .h4 {
     -webkit-transition: color .25s;

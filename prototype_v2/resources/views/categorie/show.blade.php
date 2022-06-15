@@ -81,15 +81,15 @@
 
                 <div class="content--inner">
                     <table class="specs">
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
+                        <h4>{{$categories->title}}</h4>
                         <tbody>
                             <tr>
-                                <td><i class="fa fa-camera-retro"></i>Camera</td>
-                                <td><strong>TOSHIBA 3030</strong></td>
+                                <td><i class="fa fa-camera-retro"></i>max price</td>
+                                <td><strong>{{$categories->max_price}}</strong></td>
                             </tr>
                             <tr>
-                                <td><i class="fa fa-eye"></i>Focus</td>
-                                <td><strong>22.26 mm</strong></td>
+                                <td><i class="fa fa-eye"></i>min price</td>
+                                <td><strong>{{$categories->min_price}}</strong></td>
                             </tr>
                             <tr>
                                 <td><i class="fa fa-image"></i>Resulation</td>
@@ -106,12 +106,12 @@
                         </tbody>
                     </table>
 
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit</h5>
+                    <h5>Description</h5>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati architecto ad, quod harum eos velit quia voluptates reiciendis aut quas aliquid maxime possimus, error voluptatibus unde, dolorum qui tempora. Cum.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero soluta fugiat cupiditate illo aut accusantium voluptate dignissimos nam sed numquam, aperiam laudantium facere iusto cum natus veritatis, modi autem eligendi. Ducimus, temporibus, corporis. Nam laboriosam expedita saepe a fugiat molestias ducimus laborum vero at. Nulla maxime, dolorum doloremque mollitia officia nemo provident sapiente voluptate, corporis eaque, eos <a href="#">quos veritatis voluptates</a>.</p>
-
+                    <p>
+                        <a href="{{route('prodact.categorie',$categories->slug)}}" class="btn btn-round btn-danger my-5" ><i class="fa fa-shopping-cart"></i>Next</a>
+                    </p>
                 </div>
             </div>
             <!-- Portfolio Details End -->
