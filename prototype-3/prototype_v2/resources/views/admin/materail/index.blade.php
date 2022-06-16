@@ -9,6 +9,7 @@
             <th>en Stock</th>
             <th>image</th>
             <th>categorie</th>
+            <th>action</th>
         </tr>
     </thead>
     <tbody>
@@ -21,6 +22,7 @@
             <th>{{$value->inStock}}</th>
             <th>{{$value->image}}</th>
             <th>{{$value->categorie->title}}</th>
+            <th> <a href="{{route('edit.materail', $value->id)}}">Edit</a></th>
         </tr>
         @endforeach
     </tbody>

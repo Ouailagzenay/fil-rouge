@@ -70,9 +70,11 @@ class MaterailController extends Controller
      * @param  \App\Models\Materail  $materail
      * @return \Illuminate\Http\Response
      */
-    public function edit(Materail $materail)
+    public function edit($materail)
     {
-        //
+        $categories = Categorie::all();
+        $materail=Materail::find($materail);
+        return view('admin.materail.edit',compact('materail','categories'));
     }
 
     /**
@@ -82,9 +84,9 @@ class MaterailController extends Controller
      * @param  \App\Models\Materail  $materail
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateMaterailRequest $request, Materail $materail)
+    public function update(Request $request,  $materail)
     {
-        //
+        $input 
     }
 
     /**
