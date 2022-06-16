@@ -1,4 +1,4 @@
-<form method="POST" action="{{Url('/add/materail')}}">
+<form method="POST" action="{{Url('/admin/add/materail')}}">
         @csrf
         <div>
             <label for="">Title</label>

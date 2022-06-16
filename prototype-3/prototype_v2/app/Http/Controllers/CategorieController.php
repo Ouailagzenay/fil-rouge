@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Categorie;
 use App\Http\Requests\StoreCategorieRequest;
 use App\Http\Requests\UpdateCategorieRequest;
+use Illuminate\Http\Request;
 
 class CategorieController extends Controller
 {
@@ -20,6 +21,11 @@ class CategorieController extends Controller
             ]);
     }
 
+    public function adminIndex(){
+        $categories= Categorie::all();
+        return view('admin.categorie.index', compact('categories'));
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -27,7 +33,8 @@ class CategorieController extends Controller
      */
     public function create()
     {
-        //
+        
+        return view('admin.categorie.form');
     }
 
     /**
@@ -36,9 +43,12 @@ class CategorieController extends Controller
      * @param  \App\Http\Requests\StoreCategorieRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreCategorieRequest $request)
+    public function store(Request $request)
     {
-        //
+        
+        $input = $request->all();
+        Categorie::create($input);
+        return redirect('/admin/categorie');
     }
 
     /**

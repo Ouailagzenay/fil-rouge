@@ -1,3 +1,4 @@
+<a href="{{route('form.categorie')}}">add categorie</a>
 <table class="table-light">
     <thead>
         <tr>
@@ -10,15 +11,15 @@
         </tr>
     </thead>
     <tbody>
-        @foreach ($materail as $value)
+        @foreach ($categories as $value)
         <tr>
-            <th >{{$value->nom_materail}}</th>
+            <th >{{$value->title}}</th>
             <th>{{$value->slug}}</th>
             <th>{{$value->description}}</th>
-            <th>{{$value->price}}</th>
-            <th>{{$value->inStock}}</th>
+            <th>{{$value->max_price}}</th>
+            <th>{{$value->min_price}}</th>
             <th>{{$value->image}}</th>
-            <th>{{$value->categorie->title}}</th>
+            
         </tr>
         @endforeach
     </tbody>

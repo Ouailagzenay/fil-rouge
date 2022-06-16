@@ -34,9 +34,9 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/admin/logout', [App\Http\Controllers\AdminController::class, 'adminLogout'])->name('admin.logout');
 
 Route::get('/admin/materail',[App\Http\Controllers\MaterailController::class, 'index']);
-Route::get('/add/materail',[App\Http\Controllers\MaterailController::class, 'create']);
-Route::post('/add/materail',[App\Http\Controllers\MaterailController::class, 'store']);
+Route::get('/admin/add/materail',[App\Http\Controllers\MaterailController::class, 'create'])->name('form.materail');
+Route::post('/admin/add/materail',[App\Http\Controllers\MaterailController::class, 'store']);
 
-Route::get('/catecorie',[App\Http\Controllers\MaterailController::class, 'index']);
-Route::get('/add/categorie',[App\Http\Controllers\MaterailController::class, 'create']);
-Route::post('/add/categorie',[App\Http\Controllers\MaterailController::class, 'store']);
+Route::get('/admin/categorie',[App\Http\Controllers\CategorieController::class, 'adminIndex']);
+Route::get('/admin/add/categorie',[App\Http\Controllers\CategorieController::class, 'create'])->name('form.categorie');
+Route::post('/admin/add/categorie',[App\Http\Controllers\CategorieController::class, 'store']);

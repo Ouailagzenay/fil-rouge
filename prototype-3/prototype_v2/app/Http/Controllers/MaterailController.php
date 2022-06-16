@@ -50,7 +50,7 @@ class MaterailController extends Controller
     {
         $input = $request->all();
         Materail::create($input);
-        return redirect('/');
+        return redirect('/admin/materail');
     }
 
     /**

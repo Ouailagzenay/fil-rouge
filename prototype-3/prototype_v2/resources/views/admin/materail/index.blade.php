@@ -1,3 +1,4 @@
+<a href="{{route('form.materail')}}">add materail</a>
 <table class="table-light">
     <thead>
         <tr>

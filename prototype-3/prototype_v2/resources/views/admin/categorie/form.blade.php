@@ -1,4 +1,5 @@
- <form method="POST" action="{{Url('/add/categorie')}}">
+
+ <form method="POST" action="{{Url('/admin/add/categorie')}}">
         @csrf
         <div>
             <label for="">Title</label>
