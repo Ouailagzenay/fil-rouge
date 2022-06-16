@@ -1,0 +1,190 @@
+/*
+
+[Theme Color Stylesheet]
+
+Project     : TheGraphy - Responsive Creative Photography HTML5 Template
+Version     : 1.0
+Author      : ThemeLooks
+Author URI  : https://themeforest.net/user/themelooks
+
+*/
+
+/*------------------------------------*\
+    COLOR
+\*------------------------------------*/
+a,
+a:hover,
+a:focus,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link.active,
+.nav li a:hover,
+.nav li.active > a,
+.nav li.active > a:hover,
+.nav li.active > a:focus,
+.nav li.open > a,
+.nav li.open > a:hover,
+.nav li.open > a:focus,
+.btn-default,
+.btn-default.disabled:hover,
+.btn-default.disabled:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled]:hover,
+.btn-default[disabled]:focus,
+.btn-default[disabled].focus,
+.text-primary,
+.owl-nav > div,
+.breadcrumb > li > a:hover,
+.pagination > li.prev > a:hover,
+.pagination > li.next > a:hover,
+.content--inner table.specs .fa,
+.about--summery .social .nav > li > a,
+.service--item:hover .icon,
+.portfolio--filter-menu .nav > li,
+.portfolio--details .social .nav > li > a,
+.pricing--item:hover .title .h2,
+.team--member .social .nav > li > a,
+.team--member .social .nav > li > a:hover,
+.post--single-meta .nav + .nav > li > a > .fa,
+.links--widget .nav > li > a > span,
+.footer--social .nav > li > a,
+.cs--content .social .nav > li > a,
+.f0f--content .social .nav > li > a {
+    color: #deab3a;
+}
+
+/*------------------------------------*\
+    BACKGROUND COLOR
+\*------------------------------------*/
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:active:hover,
+.btn-default:active:focus,
+.btn-default:active.focus,
+.btn-default.active,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default,
+.open > .dropdown-toggle.btn-default:hover,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default.focus,
+.nav > li > a.btn-default:hover,
+.nav > li > a.btn-default:focus,
+.nav > li.active > a.btn-default,
+.owl-nav > div:hover,
+.owl-dot.active,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li.active > a,
+.pagination > li.active > a:hover,
+.pagination > li.active > a:focus,
+.pagination > li.active > span,
+.pagination > li.active > span:focus,
+.content--inner blockquote,
+.about--summery .social .nav > li > a:hover,
+.service--item:hover,
+.service--items .owl-nav > div,
+.portfolio--filter-menu .nav > li:hover,
+.portfolio--filter-menu .nav > li.active,
+.portfolio--details .social .nav > li > a:hover,
+.counter--item .title:before,
+.pricing--item:hover .amount .h1,
+.team--member:hover .info,
+.post--footer .share .nav > li > a:hover,
+.post--nav .nav > li > a:hover,
+.contact--info .nav > li > .fa,
+#backToTop .btn:hover,
+.links--widget .nav > li:before,
+.links--widget .nav > li > a:hover > span,
+.tagcloud > a:hover,
+.footer--social .nav > li > a:hover,
+.subscribe--form .btn:hover,
+.cs--content .social .nav > li > a:hover,
+.f0f--content .social .nav > li > a:hover {
+    background-color: #deab3a;
+}
+
+::-moz-selection {
+    background-color: #deab3a;
+}
+
+::selection {
+    background-color: #deab3a;
+}
+
+/*------------------------------------*\
+    BORDER COLOR
+\*------------------------------------*/
+.btn-default,
+.btn-default.disabled:hover,
+.btn-default.disabled:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled]:hover,
+.btn-default[disabled]:focus,
+.btn-default[disabled].focus,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:active:hover,
+.btn-default:active:focus,
+.btn-default:active.focus,
+.btn-default.active,
+.btn-default.active:hover,
+.btn-default.active:focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default,
+.open > .dropdown-toggle.btn-default:hover,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default.focus,
+.nav > li > a.btn-default:hover,
+.nav > li > a.btn-default:focus,
+.nav > li.active > a.btn-default,
+.preloader--spinner:before,
+.preloader--spinner:after,
+.owl-nav > div,
+.form-control:focus,
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li.active > a,
+.pagination > li.active > a:hover,
+.pagination > li.active > a:focus,
+.pagination > li.active > span,
+.pagination > li.active > span:focus,
+.widget--title .h4:before,
+.service--items,
+.pricing--item,
+.team--member,
+.team--member .img,
+.team--member .info,
+.links--widget .nav > li > a:hover > span,
+.subscribe--form .form-control,
+.about--summery .title,
+.about--summery .social .nav > li > a,
+.service--item,
+.service--item .icon,
+.portfolio--filter-menu .nav > li,
+.portfolio--item figcaption:after,
+.portfolio--details .social .nav > li > a,
+.team--member .social .nav > li > a,
+.testimonial--item .avatar,
+.post--img a:after,
+.post--meta,
+.post--footer .share .nav > li > a,
+.post--nav .nav > li > a,
+.comments--title .h4:before,
+.recent--shot a:after,
+.tagcloud > a,
+.subscribe--form .btn,
+.footer--social .nav > li > a,
+.cs--content .social .nav > li > a,
+.f0f--content .social .nav > li > a {
+    border-color: #deab3a;
+}

@@ -1,0 +1,18 @@
+/*
+
+[RTL Stylesheet]
+
+Project     : TheGraphy - Responsive Creative Photography HTML5 Template
+Version     : 1.0
+Author      : ThemeLooks
+Author URI  : https://themeforest.net/user/themelooks
+
+
+NOTE:
+------
+PLEASE DO NOT EDIT THIS CSS, YOU MAY NEED TO USE "custom.css" FILE FOR WRITING YOUR CUSTOM CSS.
+WE MAY RELEASE FUTURE UPDATES SO IT WILL OVERWRITE THIS FILE. IT'S BETTER AND SAFER TO USE "custom.css".
+
+*/
+
+.float--left,.nav>li{float:right}.float--right,.links--widget .nav>li>a>span{float:left}.owl-nav{text-align:left}.header--nav-links>li>a>.caret{margin-left:0;margin-right:5px}.content--inner table.specs td:first-child{padding-left:10px;padding-right:0}.content--inner table.specs .fa{margin-left:10px;margin-right:0}.contact--info .nav>li>.fa{margin-left:14px;margin-right:0}.breadcrumb>li+li:before{content:"\\"}.pagination>li>a,.pagination>li>span{margin-left:2.5px;margin-right:2.5px}.pagination>li.prev>a,.pagination>li.prev>span{margin-left:10px}.pagination>li.next>a,.pagination>li.next>span{margin-right:10px}.comment--item .header .reply .fa{margin-left:0;margin-right:8px}.comment--items .comment--items{padding-left:0;padding-right:120px}.subscribe--form .input-group .btn,.subscribe--form .input-group .form-control{border-radius:0}.post--single-meta .nav>li>a>.fa,.subscribe--form .btn .fa{margin-left:8px;margin-right:0}.about--summery .title{padding-left:0;padding-right:20px;border-left-width:0;border-right-width:4px}.links--widget .nav>li,.post--inner{padding-left:0;padding-right:15px}.post--item+.post--item .post--inner{padding-left:15px;padding-right:0}@media screen and (min-width:992px){.post--items .post--slider{padding-left:15px;padding-right:0}}.search--widget .btn-link{left:0;right:auto}.links--widget .nav>li:before{left:auto;right:0}@media screen and (max-width:991px){.header--nav-links,.header--nav-links>li{float:none}.comment--items .comment--items{padding-right:0}}
