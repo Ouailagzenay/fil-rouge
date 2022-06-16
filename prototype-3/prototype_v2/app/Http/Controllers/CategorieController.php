@@ -70,9 +70,12 @@ class CategorieController extends Controller
      * @param  \App\Models\Categorie  $categorie
      * @return \Illuminate\Http\Response
      */
-    public function edit(Categorie $categorie)
+    public function edit($categorie)
     {
-        //
+        
+        
+        $categorie=Categorie::find($categorie);
+        return view('admin.categorie.edit',compact('categorie'));
     }
 
     /**
@@ -82,9 +85,19 @@ class CategorieController extends Controller
      * @param  \App\Models\Categorie  $categorie
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateCategorieRequest $request, Categorie $categorie)
+    public function update(Request $request,  $categorie)
     {
-        //
+        $input =$request->all();
+        $categorie= Categorie::find($categorie);
+        $categorie->title = $input['title'];
+        $categorie->slug = $input['slug'];
+        $categorie->description = $input['description'];
+        $categorie->max_price = $input['max_price'];
+        $categorie->max_price = $input['max_price'];
+        $categorie->image = $input['image'];
+
+        $categorie->save();
+        return redirect('/admin/categorie');
     }
 
     /**
@@ -93,8 +106,9 @@ class CategorieController extends Controller
      * @param  \App\Models\Categorie  $categorie
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Categorie $categorie)
+    public function destroy( $categorie)
     {
-        //
+        Categorie::find($categorie)->delete();
+        return redirect('/admin/categorie');
     }
 }

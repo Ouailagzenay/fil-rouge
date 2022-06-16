@@ -93,6 +93,7 @@ class MaterailController extends Controller
         $materail->description = $input['description'];
         $materail->price = $input['price'];
         $materail->inStock = $input['inStock'];
+        $materail->image = $input['image'];
         $materail->categorie_id = $input['categorie_id'];
 
         $materail->save();

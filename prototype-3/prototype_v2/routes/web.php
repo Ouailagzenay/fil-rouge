@@ -44,3 +44,6 @@ Route::delete('/admin/delet/materail/{materail}',[App\Http\Controllers\MaterailC
 Route::get('/admin/categorie',[App\Http\Controllers\CategorieController::class, 'adminIndex']);
 Route::get('/admin/add/categorie',[App\Http\Controllers\CategorieController::class, 'create'])->name('form.categorie');
 Route::post('/admin/add/categorie',[App\Http\Controllers\CategorieController::class, 'store']);
+Route::get('/admin/edit/categorie/{categorie}',[App\Http\Controllers\CategorieController::class, 'edit'])->name('edit.categorie');
+Route::put('/admin/edit/categorie/{categorie}',[App\Http\Controllers\CategorieController::class, 'update']);
+Route::delete('/admin/delet/categorie/{categorie}',[App\Http\Controllers\CategorieController::class, 'destroy']);

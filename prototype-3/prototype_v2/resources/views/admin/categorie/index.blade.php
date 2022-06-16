@@ -8,6 +8,7 @@
             <th>max price</th>
             <th>min price</th>
             <th>image</th>
+            <th>action</th>
         </tr>
     </thead>
     <tbody>
@@ -19,6 +20,14 @@
             <th>{{$value->max_price}}</th>
             <th>{{$value->min_price}}</th>
             <th>{{$value->image}}</th>
+            <th> 
+                <a href="{{route('edit.categorie', $value->id)}}">Edit</a>
+                <form action="{{url('/admin/delet/categorie',$value->id )}}" method="post">
+                    @csrf
+                    @method('delete')
+                    <button type="submit">delete</button>
+                </form>
+            </th>
             
         </tr>
         @endforeach
