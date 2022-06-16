@@ -1,5 +1,6 @@
 <form method="POST" action="{{Url('/admin/edit/materail',$materail->id)}}">
     @csrf
+    @method('put')
     <div>
         <label for="">Title</label>
         <input type="text" name="nom_materail" value="{{$materail->nom_materail}}" class="form-control" placeholder="Title">

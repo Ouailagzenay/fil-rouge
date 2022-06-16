@@ -86,7 +86,17 @@ class MaterailController extends Controller
      */
     public function update(Request $request,  $materail)
     {
-        $input 
+        $input =$request->all();
+        $materail= Materail::find($materail);
+        $materail->nom_materail = $input['nom_materail'];
+        $materail->slug = $input['slug'];
+        $materail->description = $input['description'];
+        $materail->price = $input['price'];
+        $materail->inStock = $input['inStock'];
+        $materail->categorie_id = $input['categorie_id'];
+
+        $materail->save();
+        return redirect('/admin/materail');
     }
 
     /**
@@ -95,8 +105,9 @@ class MaterailController extends Controller
      * @param  \App\Models\Materail  $materail
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Materail $materail)
+    public function destroy( $materail)
     {
-        //
+       Materail::find($materail)->delete();
+       return redirect('/admin/materail');
     }
 }

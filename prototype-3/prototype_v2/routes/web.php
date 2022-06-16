@@ -38,6 +38,7 @@ Route::get('/admin/add/materail',[App\Http\Controllers\MaterailController::class
 Route::post('/admin/add/materail',[App\Http\Controllers\MaterailController::class, 'store']);
 Route::get('/admin/edit/materail/{materail}',[App\Http\Controllers\MaterailController::class, 'edit'])->name('edit.materail');
 Route::put('/admin/edit/materail/{materail}',[App\Http\Controllers\MaterailController::class, 'update']);
+Route::delete('/admin/delet/materail/{materail}',[App\Http\Controllers\MaterailController::class, 'destroy']);
 
 //admin categorie routes 
 Route::get('/admin/categorie',[App\Http\Controllers\CategorieController::class, 'adminIndex']);

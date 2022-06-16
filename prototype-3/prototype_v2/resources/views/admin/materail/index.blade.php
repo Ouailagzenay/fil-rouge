@@ -22,7 +22,14 @@
             <th>{{$value->inStock}}</th>
             <th>{{$value->image}}</th>
             <th>{{$value->categorie->title}}</th>
-            <th> <a href="{{route('edit.materail', $value->id)}}">Edit</a></th>
+            <th> 
+                <a href="{{route('edit.materail', $value->id)}}">Edit</a>
+                <form action="{{url('/admin/delet/materail',$value->id )}}" method="post">
+                    @csrf
+                    @method('delete')
+                    <button type="submit">delete</button>
+                </form>
+            </th>
         </tr>
         @endforeach
     </tbody>
