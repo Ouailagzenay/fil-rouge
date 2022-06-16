@@ -17,9 +17,7 @@ class CreateCategoriesTable extends Migration
             $table->id();
             $table->string('title');
             $table->string('slug', 191)->unique();
-            $table->string('image1');
-            $table->string('image2');
-            $table->string('image3');
+            $table->string('image');
             $table->decimal('max_price',8,2);
             $table->decimal('min_price',8,2);
             $table->string('description',255 );

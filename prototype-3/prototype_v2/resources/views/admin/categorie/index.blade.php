@@ -1,13 +1,12 @@
 <table class="table-light">
     <thead>
         <tr>
-            <th>nom_materail</th>
+            <th>titel</th>
             <th>slug</th>
             <th>description</th>
-            <th>price</th>
-            <th>en Stock</th>
+            <th>max price</th>
+            <th>min price</th>
             <th>image</th>
-            <th>categorie</th>
         </tr>
     </thead>
     <tbody>
