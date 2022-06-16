@@ -33,6 +33,10 @@ use Illuminate\Support\Facades\Route;
 // Route::post('/admin/login', [App\Http\Controllers\AdminController::class, 'adminLogin'])->name('admin.login');
 // Route::get('/admin/logout', [App\Http\Controllers\AdminController::class, 'adminLogout'])->name('admin.logout');
 
-Route::get('/',[App\Http\Controllers\MaterailController::class, 'index']);
+Route::get('/admin/materail',[App\Http\Controllers\MaterailController::class, 'index']);
 Route::get('/add/materail',[App\Http\Controllers\MaterailController::class, 'create']);
 Route::post('/add/materail',[App\Http\Controllers\MaterailController::class, 'store']);
+
+Route::get('/catecorie',[App\Http\Controllers\MaterailController::class, 'index']);
+Route::get('/add/categorie',[App\Http\Controllers\MaterailController::class, 'create']);
+Route::post('/add/categorie',[App\Http\Controllers\MaterailController::class, 'store']);

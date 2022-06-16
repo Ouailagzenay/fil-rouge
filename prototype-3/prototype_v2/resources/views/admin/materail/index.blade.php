@@ -20,7 +20,7 @@
             <th>{{$value->slug}}</th>
             <th>{{$value->description}}</th>
             <th>{{$value->price}}</th>
-            <th>{{$value->enStock}}</th>
+            <th>{{$value->inStock}}</th>
             <th>{{$value->image}}</th>
             <th>{{$value->categorie->title}}</th>
         </tr>

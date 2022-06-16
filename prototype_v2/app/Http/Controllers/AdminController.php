@@ -9,7 +9,8 @@ use App\Http\Requests\UpdateAdminRequest;
 class AdminController extends Controller
 {
     public function __construct(){
-        $this->middleware('guest:admin')->except('')
+        $this->middleware('auth:admin')
+        ->except('showAdminLoginForm','adminLogout');
     }
     public function index()
     {
