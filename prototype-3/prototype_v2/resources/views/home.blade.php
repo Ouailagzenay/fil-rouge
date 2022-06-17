@@ -82,11 +82,11 @@
                                         <!-- Banner Content Start -->
                                         <div class="banner--content pt--100 pb--100 text-white text-center">
                                             <div class="banner--title ff--primary">
-                                                <h2 class="h2 text-primary">Capture Your Mind</h2>
+                                                <h2 class="h2 text-primary">Traiteur Ouail</h2>
                                             </div>
 
                                             <div class="banner--subtitle">
-                                                <h3 class="h4 text-white">Professional Photographer</h3>
+                                                <h3 class="h4 text-white">Decoration anniversaire</h3>
                                             </div>
 
                                             <div class="banner--desc">
@@ -107,7 +107,7 @@
                 <!-- Banner Item End -->
 
                 <!-- Banner Item Start -->
-                <div class="banner--item" data-bg-img="{{asset('img/home/hedare.png')}}">
+                <div class="banner--item" data-bg-img="{{asset('img/home/hedare2.png')}}">
                     <div class="vc--parent">
                         <div class="vc--child">
                             <div class="container">
@@ -116,11 +116,11 @@
                                         <!-- Banner Content Start -->
                                         <div class="banner--content pt--100 pb--100 text-white text-center">
                                             <div class="banner--title ff--primary">
-                                                <h2 class="h2 text-primary">Capture Your Mind</h2>
+                                                <h2 class="h2 text-primary">Traiteur Ouail</h2>
                                             </div>
 
                                             <div class="banner--subtitle">
-                                                <h3 class="h4 text-white">Professional Photographer</h3>
+                                                <h3 class="h4 text-white">Decoration mariage</h3>
                                             </div>
 
                                             <div class="banner--desc">
@@ -150,11 +150,11 @@
                                         <!-- Banner Content Start -->
                                         <div class="banner--content pt--100 pb--100 text-white text-center">
                                             <div class="banner--title ff--primary">
-                                                <h2 class="h2 text-primary">Capture Your Mind</h2>
+                                                <h2 class="h2 text-primary">Traiteur Ouail</h2>
                                             </div>
 
                                             <div class="banner--subtitle">
-                                                <h3 class="h4 text-white">Professional Photographer</h3>
+                                                <h3 class="h4 text-white">Decoration pause cafe</h3>
                                             </div>
 
                                             <div class="banner--desc">
@@ -230,7 +230,7 @@
             <div class="container">
                 <!-- Section Title Start -->
                 <div class="section--title pb--50 text-center">
-                    <h2 class="h1 ff--primary text-primary">Latest News</h2>
+                    <h2 class="h1 ff--primary text-primary">Nos services</h2>
                 </div>
                 <!-- Section Title End -->
 
@@ -246,7 +246,7 @@
 
                             <div class="post--title">
                                 <h3 class="h5">
-                                    <a href="#" class="btn-link">Capture your dream through your camera</a>
+                                    <a href="#" class="btn-link">mariage</a>
                                 </h3>
                             </div>
 
@@ -274,7 +274,7 @@
 
                             <div class="post--title">
                                 <h3 class="h5">
-                                    <a href="#" class="btn-link">All new cannon long range camera</a>
+                                    <a href="#" class="btn-link">anniverser</a>
                                 </h3>
                             </div>
                         </div>
@@ -294,7 +294,7 @@
 
                             <div class="post--title">
                                 <h3 class="h5">
-                                    <a href="#" class="btn-link">Capture the best moments while you travel</a>
+                                    <a href="#" class="btn-link">pause cafe</a>
                                 </h3>
                             </div>
                         </div>
@@ -311,11 +311,7 @@
                 <!-- Call To Action Content Start -->
                 <div class="cta--content text-white text-center">
                     <div class="title">
-                        <h2 class="h2 text-white">Do you want to work with us?</h2>
-                    </div>
-
-                    <div class="desc fw--400">
-                        <p>I am available for your projects.</p>
+                        <h2 class="h2 text-white">bienvenus chez nous</h2>
                     </div>
 
                     <div class="action">
