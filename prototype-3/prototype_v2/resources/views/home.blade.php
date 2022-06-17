@@ -57,22 +57,8 @@
                         <ul class="header--nav-links nav nav-links fw--400 text-uppercase float--right" data-trigger="scrollspy">
                             <li class="active"><a href="#banner" data-trigger="scroll">Home</a></li>
                             <li><a href="#about" data-trigger="scroll">About Me</a></li>
-                            <li><a href="#services" data-trigger="scroll">Services</a></li>
-                            <li><a href="{{route('Categories')}}" class="btn btn-primary">reserve now</a></li>
-                            <li><a href="#blog" data-trigger="scroll">Blog</a></li>
                             <li><a href="#contact" data-trigger="scroll">Contact</a></li>
-                            
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<span class="caret"></span></a>
-
-                                <ul class="dropdown-menu">
-                                    <li><a href="work-single.html">Work Single</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                    <li><a href="404.html">404</a></li>
-                                    <li><a href="coming-soon.html">Coming Soon</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="{{route('Categories')}}" class="" style="background-color: rgb(176, 157, 49); border-radius: 10px;">reserve now <i class="fa-solid fa-arrow-right"></i></a></li>
                         </ul>
                         <!-- Header Nav Links End -->
                     </div>
@@ -340,104 +326,6 @@
             </div>
         </section>
         <!-- Call To Action Section End -->
-
-
-        <!-- Pricing Section Start -->
-        <section id="pricing" class="section pt--70 pb--80">
-            <div class="container">
-                <!-- Section Title Start -->
-                <div class="section--title pb--50 text-center">
-                    <h2 class="h1 ff--primary text-primary">Price List</h2>
-
-                    <p>Here's my awesome price rate</p>
-                </div>
-                <!-- Section Title End -->
-
-                <!-- Pricing Items Start -->
-                <div class="pricing--items owl-carousel" data-owl-margin="30" data-owl-dots="true" data-loop="false" data-owl-responsive='{"0": {"items": 1}, "551": {"items": 2}, "992": {"items": 3}}'>
-                    <!-- Pricing Item Start -->
-                    <div class="pricing--item">
-                        <div class="amount">
-                            <img src="{{asset('img/home/2.png')}}" alt="">
-                        </div>
-
-                        <div class="title text-uppercase">
-                            <h3 class="h2">Startup</h3>
-                        </div>
-                        <div class="features">
-                            <ul class="nav">
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>Lorem ipsum dolor sit amet consect</li>
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>Consectetur adipisicing elit</li>
-                                <li>Lorem ipsum dolor sit</li>
-                            </ul>
-                        </div>
-
-                        <div class="action">
-                            <a href="#" class="btn btn-default">Order Now</a>
-                        </div>
-                    </div>
-                    <!-- Pricing Item End -->
-
-                    <!-- Pricing Item Start -->
-                    <div class="pricing--item">
-                        <div class="amount">
-                            <img src="{{asset('img/home/2.png')}}" alt="">
-                        </div>
-
-                        <div class="title text-uppercase">
-                            <h3 class="h2">Startup</h3>
-                        </div>
-
-                        <div class="features">
-                            <ul class="nav">
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>Lorem ipsum dolor sit amet consect</li>
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>Consectetur adipisicing elit</li>
-                                <li>Lorem ipsum dolor sit</li>
-                            </ul>
-                        </div>
-
-                        <div class="action">
-                            <a href="#" class="btn btn-default">Order Now</a>
-                        </div>
-                    </div>
-                    <!-- Pricing Item End -->
-
-                    <!-- Pricing Item Start -->
-                    <div class="pricing--item">
-                        <div class="amount">
-                            <img src="{{asset('img/home/2.png')}}" alt="">
-                        </div>
-
-                        <div class="title text-uppercase">
-                            <h3 class="h2">Startup</h3>
-                        </div>
-
-                        <div class="features">
-                            <ul class="nav">
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>Lorem ipsum dolor sit amet consect</li>
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>Consectetur adipisicing elit</li>
-                                <li>Lorem ipsum dolor sit</li>
-                            </ul>
-                        </div>
-
-                        <div class="action">
-                            <a href="#" class="btn btn-default">Order Now</a>
-                        </div>
-                    </div>
-                    <!-- Pricing Item End -->
-                </div>
-                <!-- Pricing Items End -->
-            </div>
-        </section>
-        <!-- Pricing Section End -->
-
-
 
         <!-- Team Section Start -->
         <section id="team" class="section pt--70 pb--20">
