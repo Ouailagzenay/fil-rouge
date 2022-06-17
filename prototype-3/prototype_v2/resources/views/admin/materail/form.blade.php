@@ -16,12 +16,12 @@
         <input type="text" name="description" class="form-control" placeholder="description">
     </div>
     <div class="col-md-6">
-        <label for="" class="form-label">Max price</label>
-        <input type="text" name="max_price" class="form-control" placeholder="Max price">
+        <label for="" class="form-label">price</label>
+        <input type="text" name="price" class="form-control" placeholder="Max price">
     </div>
     <div class="col-md-6">
-        <label for="" class="form-label">Min price</label>
-        <input type="text" name="min_price" class="form-control" placeholder="Min price">
+        <label for="" class="form-label">In stock</label>
+        <input type="text" name="inStock" class="form-control" placeholder="Min price">
     </div>
     <div class="col-md-6">
         <label for="" class="form-label">Image</label>
