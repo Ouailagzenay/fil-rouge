@@ -30,8 +30,7 @@ Route::put('/update/{prodact}/cart', [App\Http\Controllers\CartController::class
 Route::delete('/add/{prodact}/cart', [App\Http\Controllers\CartController::class, 'removeProdactFormCart'])->name('remove.cart');
 //admin routes 
 Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin.index');
-Route::get('/admin/login', [App\Http\Controllers\AdminController::class, 'ShowAdminLoginForm'])->name('admin.login');
-Route::post('/admin/login', [App\Http\Controllers\AdminController::class, 'adminLogin'])->name('admin.login');
+
 Route::get('/admin/logout', [App\Http\Controllers\AdminController::class, 'adminLogout'])->name('admin.logout');
 //admin materail routes 
 Route::get('/admin/materail',[App\Http\Controllers\MaterailController::class, 'index']);
@@ -51,4 +50,6 @@ Route::delete('/admin/delet/categorie/{categorie}',[App\Http\Controllers\Categor
 Auth::routes();
 
 Route::get('/co', [App\Http\Controllers\HomeController::class, 'index2'])->name('comende');
+Route::get('/admin/form', [App\Http\Controllers\AdminController::class, 'showFormLogin']);
+Route::post('/admin/login', [App\Http\Controllers\AdminController::class, 'adminLogin'])->name('admin.login');
 
